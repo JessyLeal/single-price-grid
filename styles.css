@@ -32,13 +32,15 @@ body{
     background: white;
     grid-area: box-1;
     padding: 2rem;
+    border-top-right-radius: 10px; /*  /* borda redoonda superior direira */
+    border-top-left-radius: 10px; /* /* borda redonda superior  esquerda  */
 }
 .box-2{
     grid-column: 1/2;
     background: hsl(179, 62%, 43%);
     grid-area: box-2;
     padding: 2rem;
-
+    border-bottom-left-radius: 10px; /* /* borda  reedonda inferior esquerda */
 }
 .box-3{
     grid-column: 1/2;
@@ -46,6 +48,7 @@ body{
     text-align: justify;
     padding: 2rem;
     grid-area: box-3;
+    border-bottom-right-radius: 10px;
 }
 
 p.um{
