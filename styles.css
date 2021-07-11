@@ -134,3 +134,13 @@ p.oito{
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 } 
 
+/* responsividade */ 
+@media (max-width: 440px){
+    .container{
+        grid-template-areas:
+        ".box-1"
+        ".box-2"
+        ".box-3" 
+        ".box";
+    }
+}
